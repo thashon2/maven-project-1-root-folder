@@ -1,0 +1,54 @@
+@options
+@packages
+@argfile
+-classpath
+'C:/Users/thash/OneDrive/Documents/maven project 1 root folder/BinaryCalculator/target/classes;C:/Users/thash/OneDrive/Documents/maven project 1 root folder/BinaryCalculator/target/test-classes;C:/Users/thash/.m2/repository/junit/junit/4.11/junit-4.11.jar;C:/Users/thash/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar;C:/Users/thash/.m2/repository/joda-time/joda-time/2.9.2/joda-time-2.9.2.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'1.8'
+-sourcepath
+'C:/Users/thash/OneDrive/Documents/maven project 1 root folder/BinaryCalculator/src/test/java;C:/Users/thash/OneDrive/Documents/maven project 1 root folder/BinaryCalculator/target/generated-test-sources/test-annotations'
+-author
+-bottom
+'Copyright &#169; 2026. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/thash/OneDrive/Documents/maven project 1 root folder/BinaryCalculator/target/site/testapidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'BinaryCalculator 1.0.0 Test API'
+-link
+'../apidocs'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/thash/OneDrive/Documents/maven project 1 root folder/BinaryCalculator/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'BinaryCalculator 1.0.0 Test API'
+com.ontariotechu.sofe3980U
+'C:/Users/thash/OneDrive/Documents/maven project 1 root folder/BinaryCalculator/src/test/java/com/ontariotechu/sofe3980U/AppTest.java'
+'C:/Users/thash/OneDrive/Documents/maven project 1 root folder/BinaryCalculator/src/test/java/com/ontariotechu/sofe3980U/BinaryTest.java'
+C:\Users\thash\OneDrive\Documents\maven project 1 root folder\BinaryCalculator\target\classes = 1769036076761
+C:\Users\thash\OneDrive\Documents\maven project 1 root folder\BinaryCalculator\target\test-classes = 1769036076840
+C:\Users\thash\.m2\repository\junit\junit\4.11\junit-4.11.jar = 1769021486828
+C:\Users\thash\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar = 1769021486881
+C:\Users\thash\.m2\repository\joda-time\joda-time\2.9.2\joda-time-2.9.2.jar = 1769035506772
+C:\Users\thash\OneDrive\Documents\maven project 1 root folder\BinaryCalculator\src\test\java = 1769021450856
+C:\Users\thash\OneDrive\Documents\maven project 1 root folder\BinaryCalculator\target\generated-test-sources\test-annotations = 1769036076790
+C:\Users\thash\OneDrive\Documents\maven project 1 root folder\BinaryCalculator\target\site\testapidocs\allclasses-index.html = 1769036083681
+C:\Users\thash\OneDrive\Documents\maven project 1 root folder\BinaryCalculator\target\site\testapidocs\allpackages-index.html = 1769036083684
+C:\Users\thash\OneDrive\Documents\maven project 1 root folder\BinaryCalculator\target\site\testapidocs\element-list = 1769036083644
+C:\Users\thash\OneDrive\Documents\maven project 1 root folder\BinaryCalculator\target\site\testapidocs\help-doc.html = 1769036083714
+C:\Users\thash\OneDrive\Documents\maven project 1 root folder\BinaryCalculator\target\site\testapidocs\index-all.html = 1769036083700
+C:\Users\thash\OneDrive\Documents\maven project 1 root folder\BinaryCalculator\target\site\testapidocs\index.html = 1769036083706
+C:\Users\thash\OneDrive\Documents\maven project 1 root folder\BinaryCalculator\target\site\testapidocs\member-search-index.js = 1769036083688
+C:\Users\thash\OneDrive\Documents\maven project 1 root folder\BinaryCalculator\target\site\testapidocs\module-search-index.js = 1769036083685
+C:\Users\thash\OneDrive\Documents\maven project 1 root folder\BinaryCalculator\target\site\testapidocs\overview-tree.html = 1769036083669
+C:\Users\thash\OneDrive\Documents\maven project 1 root folder\BinaryCalculator\target\site\testapidocs\package-search-index.js = 1769036083686
+C:\Users\thash\OneDrive\Documents\maven project 1 root folder\BinaryCalculator\target\site\testapidocs\search.html = 1769036083704
+C:\Users\thash\OneDrive\Documents\maven project 1 root folder\BinaryCalculator\target\site\testapidocs\tag-search-index.js = 1769036083688
+C:\Users\thash\OneDrive\Documents\maven project 1 root folder\BinaryCalculator\target\site\testapidocs\type-search-index.js = 1769036083687
