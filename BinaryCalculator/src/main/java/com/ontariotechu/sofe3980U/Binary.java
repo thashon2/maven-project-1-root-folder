@@ -34,12 +34,11 @@ public class Binary
 		if(this.number=="") { // replace empty strings with a single zero
 			this.number="0";
 		}
-		//testing debug
+	
 	
     this.number = number;
 
-    // TEMPORARY DEBUG — prints whenever a Binary object is created
-    //System.out.println("Binary created: \"" + number + "\", length = " + number.length());
+   
 
 		
     }
@@ -102,19 +101,19 @@ public class Binary
 
 		for (int i=0; i<4; i++){
 			
-			char c1 = num1.number.charAt(i);
+			char c1 = num1.number.charAt(i); // will be the character in the binary number at that index
 			
 			char c2 = num2.number.charAt(i);
 			
-			if ( c1 == '1' || c2 == '1' ){
-				numString.append('1');
+			if ( c1 == '1' || c2 == '1' ){ // compares both characters at that same index and sees if either of them are value 1
+				numString.append('1');// if they are add 1 to the result 
 			}
 			else{
-				numString.append('0');
+				numString.append('0');// otherwise put 0
 			}
 		}
 
-		return new Binary (numString.toString());
+		return new Binary (numString.toString()); // return the result string 
 
 
 
@@ -128,17 +127,17 @@ public class Binary
 		StringBuilder numString = new StringBuilder();
 
 		for (int i=0; i<4; i++){
-			char c1 = num1.number.charAt(i);
+			char c1 = num1.number.charAt(i); // will be the character in the binary number at that index
 			char c2 = num2.number.charAt(i);
-			if ( c1 == '1' && c2 == '1' ){
-				numString.append('1');
+			if ( c1 == '1' && c2 == '1' ){ // compares both characters at that same index and sees if they are both value 1 
+				numString.append('1'); // if they are add 1 to the result
 			}
 			else{
-				numString.append('0');
+				numString.append('0'); // otherwise put 0
 			}
 		}
 
-		return new Binary (numString.toString());
+		return new Binary (numString.toString()); // return the result string
 
 
 
@@ -147,13 +146,13 @@ public class Binary
 
 	//MULTIPLY Method
 	public static Binary multiply(Binary num1,Binary num2){
-		int num1Decimal =  (Integer.parseInt(num1.getValue(),2));
+		int num1Decimal =  (Integer.parseInt(num1.getValue(),2)); // parses the binary number to decimal
 		int num2Decimal =  (Integer.parseInt(num2.getValue(),2));
 		
-		int product = num1Decimal * num2Decimal;
+		int product = num1Decimal * num2Decimal; // does the calculation of the product using the decimal values
 
 
-		return new Binary (Integer.toBinaryString(product));
+		return new Binary (Integer.toBinaryString(product)); // converts the value back to binary 
 
 
 
